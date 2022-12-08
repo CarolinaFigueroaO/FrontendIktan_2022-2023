@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
-
+//.
 function Gallery() {
     const navigate = useNavigate();
     return (
