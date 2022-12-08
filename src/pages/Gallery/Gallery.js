@@ -5,8 +5,6 @@ import Footer from "../../components/footer/Footer";
 import { useNavigate } from "react-router-dom";
 
 
-
-//Buenas
 function Gallery() {
     const navigate = useNavigate();
     return (
