@@ -8,7 +8,7 @@ import Gallery from './pages/Gallery/Gallery';
 function App() {
   return (
     <div className="App">
-       <div class="burbujas">
+       <div class="stars">
         <div></div>
         <div></div>
         <div></div>

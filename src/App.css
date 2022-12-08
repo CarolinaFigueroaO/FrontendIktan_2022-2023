@@ -1,50 +1,50 @@
 .App {
   text-align: center;
 }
-.burbujas div {
+.stars div {
   background: rgb(174, 184, 188);
   border-radius: 100%;
   position: absolute;
   bottom: 0;
-  animation: animarburbujas 20s linear infinite;
+  animation: animatestars 20s linear infinite;
 }
 
-.burbujas div:nth-child(1) {
+.stars div:nth-child(1) {
   width: 2px;
   height: 2px;
   left: 20%;
   animation-duration: 26s;
 }
 
-.burbujas div:nth-child(2) {
+.stars div:nth-child(2) {
   width: 2px;
   height: 2px;
   left: 30%;
   animation-duration: 20s;
 }
 
-.burbujas div:nth-child(3) {
+.stars div:nth-child(3) {
   width: 1px;
   height: 1px;
   left: 50%;
   animation-duration: 23s;
 }
 
-.burbujas div:nth-child(4) {
+.stars div:nth-child(4) {
   width: 2px;
   height: 2px;
   left: 70%;
   animation-duration: 30s;
 }
 
-.burbujas div:nth-child(5) {
+.stars div:nth-child(5) {
   width: 1px;
   height: 1px;
   left: 90%;
   animation-duration: 28s;
 }
 
-@keyframes animarburbujas {
+@keyframes animatestars {
   50% {
     margin-left: 20px;
     opacity: 0.5;
