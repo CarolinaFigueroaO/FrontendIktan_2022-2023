@@ -8,6 +8,15 @@ import Gallery from './pages/Gallery/Gallery';
 function App() {
   return (
     <div className="App">
+       <div class="burbujas">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
             <>
                 <Router>
                     <Routes>
