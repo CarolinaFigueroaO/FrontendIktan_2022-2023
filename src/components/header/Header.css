@@ -1,0 +1,60 @@
+.header_container{
+    background-color: #0C0E1C;
+    color: #BEC1C5;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 30px;
+    display: inline-block;
+}
+.header_container .Header-logo{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: -8px;
+    object-fit: contain;
+    left: 48%;
+}
+
+/*Distribucion de opciones de barra*/
+.header_container .header_navbar a{
+    font-family: 'Ubuntu', sans-serif;
+    padding-inline: 120px;
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+
+/*Animacion cursor sobre barra*/
+.header_container .header_navbar a:hover{
+    border-color: transparent;
+    background: linear-gradient(
+        90deg,
+        black,
+        rgb(3, 0, 15),
+        rgb(4, 0, 35),
+        rgb(3, 0, 15),
+        black
+    );
+    background-size: 400%;
+    box-shadow: 0 0 15px rgb(2, 4, 24);
+    animation: glow 12s linear forwards;
+}
+
+@keyframes glow {
+
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 400%;
+    }
+
+}
+
+
